@@ -1,9 +1,11 @@
-# PROGRAM TO DISPLAY FIBONACCI SERIES FROM 0-50
+# PROGRAM TO DISPLAY FIBONACCI SERIES BETWEEN 0 to N
 
 
+#N is user input
+N=int(input())
 # first two terms
 x, y = 0, 1
 # generate fibonacci sequence
-while y < 50:
+while y < N:
     print(y)
     x, y = y, x + y
